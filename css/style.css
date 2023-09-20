@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+/* varibles */
+:root{
+    --yellow : #333;
+    
+}
+/* para usarla var() */
 html{
     scroll-behavior: smooth;
 }
@@ -11,16 +17,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid yellow;
+    background-color: #111;
+    
 }
 .container{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    width: 100%;
-    border: 1px solid red;
     position: relative;
     padding: 0;
+    width: 100%;
 }
 .center{
     display: flex;

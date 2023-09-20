@@ -1,20 +1,24 @@
 .main{
-    width: 75%;
+    width: 100%;
     padding: 0;
     margin-right: 0;
     background-color: #111;
     color: white;
+    width: 75%;
+    margin-right: 0;
 }
 /* HOME STYLES  */
-.home{
+section{
+    width: 100%;
     margin: 0;
     height: 100vh;
     padding: 20px;
 }
-.home__header{
+.header{
     width: 100%;
+    margin-bottom: 20px;
 }
-.home__footer{
+.footer{
     width: 100%;
 }
 .download{
@@ -28,4 +32,9 @@
     color: white;
     display: flex;
     justify-content: space-evenly;
+}
+.aboutme__list{
+    list-style: none;
+    padding: 0;
+    width: 200px;
 }
