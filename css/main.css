@@ -12,16 +12,20 @@ section{
     width: 100%;
     margin: 0;
     height: 100vh;
-    padding: 20px;
+    padding: 10px;
 }
 .header{
     width: 100%;
     margin-bottom: 20px;
 }
+.section_main{
+    width: 100%;
+    border: 1px solid red;
+}
 .footer{
     width: 100%;
 }
-.download{
+.download,.card-miformacion__title{
     text-decoration: none;
     flex-direction: row;
     width: 150px;
@@ -33,8 +37,64 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
+/* ABOUT ME STYLES */
 .aboutme__list{
     list-style: none;
     padding: 0;
     width: 200px;
+}
+/* CARDS STYLES */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.card{
+    background-color: #444;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.card__text{
+    font-variant: small-caps;
+    text-align: center;
+}
+/* MI FORMACION STYLES */
+.card-miformacion{
+    border-left: 2px solid yellowgreen;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 350px;
+    margin: 10px;
+}
+.card-miformacion__title{
+    padding: 5px;
+    margin-right: 100px;
+}
+.subtitle{
+    font-size: 1.5rem;
+}
+.card-miformacion__circle{
+    background-color: yellowgreen;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    top: -10px;
+    left: -25px;
+}
+.card-miformacion__icon{
+    color: #111;
+    font-size: 1.5rem;
+}
+.card__text-miformacion{
+    text-align: left;
+    font-size: 0.8rem;
 }
